@@ -14,6 +14,7 @@
 </head>
 <body>
     <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
         <a href="" class="logo"><span>T</span>ravel</a>
         <nav class="navbar">
             <a href="#home">home</a>
@@ -40,6 +41,9 @@
     <!-- login form container -->
 
     <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
         <form action="">
             <h3>login</h3>
             <input type="email" class="box" placeholder="enter your email">
@@ -55,6 +59,78 @@
 
     <!-- login form container -->
 
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>adventure is worthile</h3>
+            <p>discover new places with us, adventures awaits for you</p>
+            <a href="#" class="btn">discover</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- book start-->
+
+<section class="book" id="book">
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+    
+        <form action="">
+        <div class="inputBox">
+            <h3>where to</h3>
+            <input type="text" placeholder="place name">
+        </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+        </form>
+    </div>
+</section>
+
+
+    <!-- book ends -->
 
 
 
